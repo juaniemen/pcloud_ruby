@@ -6,3 +6,5 @@
 /pkg/
 /spec/reports/
 /tmp/
+/.dotenv_secrets
+/.byebug_history
