@@ -20,7 +20,7 @@ class AuthTest < PcloudRubyTest
     assert auth.list_tokens
   end
 
-  def test_elimina_lastre
+  def test_delete_ruby_tokens
     authenticate!
     b = auth.delete_ruby_tokens
     c = auth.list_tokens
