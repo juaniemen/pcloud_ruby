@@ -13,7 +13,8 @@ gem "rubocop", "~> 0.80"
 
 gem "dotenv"
 
-gem "rest-client"
-gem "json"
+gem 'faraday', "~> 1.4"
+gem 'mime-types'
+
 gem "digest"
 gem "byebug"
